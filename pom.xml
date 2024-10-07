@@ -8,11 +8,11 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ads.fatec</groupId>
-	<artifactId>AvaliacaoIT002</artifactId>
+	<groupId>sp.gov.sp.fatec</groupId>
+	<artifactId>springatv20242</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AvaliacaoIT002</name>
-	<description>Avaliacao </description>
+	<name>springatv20242</name>
+	<description>Atv Spring</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -38,6 +38,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		 <dependency> 
+            <groupId>com.mysql</groupId> 
+            <artifactId>mysql-connector-j</artifactId> 
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
