@@ -29,7 +29,7 @@ public class TrabalhoController {
     }
 
     // Rota para cadastrar um novo trabalho
-    @PostMapping
+    @PostMapping("/cadastrar")
     public Trabalho cadastrarTrabalho(@RequestBody Trabalho trabalho) {
         return trabalhoService.novoTrabalho(trabalho);
     }
